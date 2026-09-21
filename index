@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Luke Cresswell - Projects</title>
-<meta name="description" content="Research and projects by Luke Cresswell, Aerospace Engineering, The University of Alabama.">
+<meta name="description" content="Research and projects by Luke Cresswell, M.S. in Aerospace Engineering and Mechanics.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -44,7 +44,7 @@ section{padding:44px 0 56px;border-top:1px solid var(--line)}
 <div class="frame"><div class="sheet"><div class="wrap">
 
 <header class="top">
-  <div class="meta"><span>Portfolio</span><span>The University of Alabama</span></div>
+  <div class="meta"><span>Portfolio</span></div>
   <h1>Luke Cresswell</h1>
   <p class="lede">Research and projects, each with its own page.</p>
 </header>
