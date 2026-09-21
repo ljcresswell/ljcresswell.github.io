@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luke Cresswell - Projects</title>
+<meta name="description" content="Research and projects by Luke Cresswell, Aerospace Engineering, The University of Alabama.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b1c2c;--line:rgba(150,190,220,.22);--soft:rgba(150,190,220,.12);--ink:#e9f1f7;--dim:#a9bccd;--faint:#7d94aa;--amber:#e3a13c;--cyan:#6fc6dd;--mono:'IBM Plex Mono',monospace}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:repeating-linear-gradient(0deg,rgba(150,190,220,.07) 0 1px,transparent 1px 88px),repeating-linear-gradient(90deg,rgba(150,190,220,.07) 0 1px,transparent 1px 88px),var(--bg);color:var(--ink);font:16px/1.65 'IBM Plex Sans',sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--cyan)}
+a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+h1,h3{font-family:'Space Grotesk',sans-serif;font-weight:600;margin:0;line-height:1.2}
+.frame{max-width:1160px;margin:0 auto;padding:18px}
+.sheet{border:1px solid var(--line);position:relative}
+.sheet::before{content:"";position:absolute;inset:6px;border:1px solid var(--soft);pointer-events:none}
+.wrap{max-width:920px;margin:0 auto;padding:0 32px}
+header.top{padding:40px 0 0}
+.meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font:12px var(--mono);letter-spacing:.02em;text-transform:uppercase;color:var(--faint);padding-bottom:14px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(32px,5vw,52px);padding:32px 0 12px}
+.lede{font-size:19px;color:var(--dim);max-width:44ch;margin:0 0 40px}
+section{padding:44px 0 56px;border-top:1px solid var(--line)}
+.kicker{display:block;font:11.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--amber);margin-bottom:6px}
+.project{display:grid;grid-template-columns:1fr 1.3fr;border:1px solid var(--line);background:rgba(255,255,255,.02);text-decoration:none;color:inherit;margin-top:20px;transition:border-color .15s,background .15s}
+.project:hover{border-color:var(--amber);background:rgba(227,161,60,.05)}
+.project img{display:block;width:100%;height:100%;object-fit:contain;background:#fff;border-right:1px solid var(--line)}
+.txt{padding:22px 24px}
+.tag{font:11.5px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--amber)}
+.project h3{font-size:20px;margin:8px 0 10px;color:var(--ink)}
+.project p{margin:0 0 14px;color:var(--dim);font-size:15px}
+.go{font:12.5px var(--mono);letter-spacing:.03em;color:var(--cyan)}
+.links{display:flex;gap:24px;flex-wrap:wrap;font-size:13.5px;padding-bottom:44px}
+.links a{color:var(--dim);text-decoration:none;border-bottom:1px solid var(--line)}
+.links a:hover{color:var(--amber);border-color:var(--amber)}
+@media(max-width:820px){.wrap{padding:0 20px}.project{grid-template-columns:1fr}.project img{border-right:0;border-bottom:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<div class="frame"><div class="sheet"><div class="wrap">
+
+<header class="top">
+  <div class="meta"><span>Portfolio</span><span>The University of Alabama</span></div>
+  <h1>Luke Cresswell</h1>
+  <p class="lede">Research and projects, each with its own page.</p>
+</header>
+
+<section>
+  <span class="kicker">Projects</span>
+
+  <!-- To add a project, copy this whole <a class="project"> block, paste it below, and change the link, image, and text. -->
+  <a class="project" href="blown-lift/">
+    <img src="blown-lift/assets/test-grid.png" alt="The NACA 4412 wing and the grid of 88 tested propeller positions.">
+    <div class="txt">
+      <div class="tag">Master's research</div>
+      <h3>Effects of Propeller Location on Blown Lift in the Low Reynolds Number Regime</h3>
+      <p>We swept a small propeller through 88 positions ahead of a wing in a wind tunnel to find where it adds the most lift, and tested whether a simple textbook estimate can predict the result.</p>
+      <span class="go">View the project &rarr;</span>
+    </div>
+  </a>
+</section>
+
+<div class="links">
+  <a href="https://www.linkedin.com/in/luke-cresswell-288117291/">LinkedIn</a>
+</div>
+
+</div></div></div>
+</body>
+</html>
